@@ -31,7 +31,7 @@ steps:
     python -m pip install --upgrade pip setuptools wheel django
     pip install -r requirements.txt
     pip install unittest-xml-reporting
-    pip install pysqlite
+    apt-get install python3.6-dev
   displayName: 'Install prerequisites'
 
 - script: |
